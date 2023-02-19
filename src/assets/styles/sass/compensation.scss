@@ -1,0 +1,95 @@
+.compensation_block {
+  width: 100%;
+  max-width: 1110px;
+  margin: 70px auto;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 40px;
+  .packages {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    justify-content: space-between;
+    width: 85%;
+    .package {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .icon {
+        position: relative;
+        background: rgba(0, 0, 0, 0.05);
+        width: 110px;
+        height: 110px;
+        border-radius: 55%;
+      }
+      .icon::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-size: 45%;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .dms::before {
+        background-image: url("/src/assets/icons/compensation/heal.svg");
+      }
+      .dayoff::before {
+        background-image: url("/src/assets/icons/compensation/dayoff.svg");
+      }
+      .mobile::before {
+        background-image: url("/src/assets/icons/compensation/mobile.svg");
+      }
+      .sales::before {
+        background-image: url("/src/assets/icons/compensation/sales.svg");
+      }
+      .lti::before {
+        background-size: 60%;
+        background-image: url("/src/assets/icons/compensation/lti.svg");
+      }
+      .mortgage::before {
+        background-image: url("/src/assets/icons/compensation/mortgage.svg");
+      }
+      .orgtex::before {
+        background-image: url("/src/assets/icons/compensation/orgtex.svg");
+      }
+      .titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        .name {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 110%;
+          color: #444444;
+        }
+      }
+    }
+  }
+  .packages.motivate {
+    width: 50%;
+  }
+  .line {
+    opacity: .1;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    margin: 50px 0px;
+  }
+  .titles {
+    font-weight: 600;
+    font-size: 30px;
+    color: #444444;
+    text-align: center;
+    .hot {
+      margin-top: 4px;
+      color: #B01736;
+    }
+  }
+}

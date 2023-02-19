@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'navbar.scss';
+@import 'headblock.scss';
+@import 'aboutblock.scss';
+@import 'statsBlock.scss';
+@import 'Map/map.scss';
+@import 'mission.scss';
+@import 'directionBlock.scss';
+@import 'compensation.scss';
+@import 'lifeBlock.scss';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat";
+  background-color: #FFFFFF;
+}
+#app {
+  width: 1250px;
+  margin: 0 auto;
+}

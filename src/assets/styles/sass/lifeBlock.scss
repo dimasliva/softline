@@ -1,0 +1,85 @@
+.life_block {
+  width: 100%;
+  max-width: 1110px;
+  margin: 70px auto;
+  .header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    .title {
+      color: #444444;
+      font-weight: 600;
+      font-size: 50px;
+      cursor: default;
+    }
+    .btns {
+      display: flex;
+      align-items: center;
+      .btn {
+        width: 56px;
+        height: 56px;
+        position: relative;
+        background: #F0F0F0;
+        border-radius: 55%;
+        cursor: pointer;
+      }
+      .btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20%;
+      }
+      .left::before {
+        background-image: url("/src/assets/icons/life/arrow.svg");
+      }
+      .right {
+        margin-left: 20px;
+        transform: rotate(180deg);
+      }
+      .right::before {
+        background-image: url("/src/assets/icons/life/arrow.svg");
+      }
+    }
+  }
+  .slide {
+    width: 100%;
+    height: 834px;
+    margin: 50px 0;
+  }
+  .slide.num0{
+    background-image: url("/src/assets/icons/life/one.jpg");
+  }
+  .slide.num4{
+    background-image: url("/src/assets/icons/life/five.jpg");
+  }
+  .slide.num1{
+    background-image: url("/src/assets/icons/life/two.jpg");
+  }
+  .slide.num2{
+    background-image: url("/src/assets/icons/life/three.jpg");
+  }
+  .slide.num3{
+    background-image: url("/src/assets/icons/life/four.jpg");
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    .block {
+      width: 214px;
+      height: 6px;
+      cursor: pointer;
+
+      background: #000000;
+      opacity: 0.1;
+    }
+    .block.active {
+      opacity: 1;
+      background: #A30C33;
+    }
+  }
+}

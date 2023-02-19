@@ -1,0 +1,86 @@
+.direction_block {
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    margin-bottom: 40px;
+  }
+  .blocks {
+    display: grid;
+    grid-template-columns: 51.2% 10%;
+    grid-template-rows: 275px 275px;
+    .block {
+      width: 615px;
+      height: 260px;
+      color: #FFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .block:hover {
+      .title_container {
+        padding: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+        .title {
+          margin: 0px;
+        }
+        .desc_container {
+          font-size: 15px;
+          margin-top: 20px;
+        }
+      }
+    }
+    .title_container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      background: rgb(45, 54, 83, .6);
+      height: 80px;
+      padding: 20px;
+      transition: .3s all ease-in-out;
+      .title {
+        color: #FFF;
+        font-weight: 600;
+        font-size: 24px;
+        margin: 0px;
+        transition: .3s all ease-in-out;
+      }
+
+      .desc_container {
+        font-weight: 400;
+        font-size: 0px;
+        transition: .3s all ease-in-out;
+      }
+    }
+
+    .solve {
+      background-image: url("/src/assets/icons/direction/solve.jpg");
+    }
+    .cyber {
+      background-image: url("/src/assets/icons/direction/cyber.jpg");
+    }
+    .import {
+      background-image: url("/src/assets/icons/direction/import.jpg");
+    }
+    .sky {
+      background-image: url("/src/assets/icons/direction/sky.jpg");
+    }
+    .digital {
+      background-image: url("/src/assets/icons/direction/digital.jpg");
+      .title_container .title {
+          width: 350px;
+      }
+    }
+    .support {
+      background-image: url("/src/assets/icons/direction/support.jpg");
+    }
+  }
+}

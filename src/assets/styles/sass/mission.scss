@@ -1,0 +1,48 @@
+.mission_block {
+  width: 100%;
+  position: relative;
+  max-width: 1250px;
+  height: 471px;
+  background: rgba(163, 12, 51, 1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .title {
+    color: white;
+    font-weight: 600;
+    font-size: 56px;
+    margin-bottom: 50px;
+  }
+  .desc {
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+  }
+}
+.mission_block::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 55px;
+  bottom: 55px;
+  width: 348px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("/src/assets/icons/mission/Right.svg");
+  background-size: contain;
+}
+.mission_block::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 55px;
+  bottom: 55px;
+  width: 348px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url("/src/assets/icons/mission/Left.svg");
+  background-size: contain;
+}

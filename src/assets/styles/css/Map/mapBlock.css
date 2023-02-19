@@ -1,0 +1,149 @@
+.map_navbar {
+  width: 100%;
+  height: 80px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 4%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.map_navbar .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.map_navbar .left .arrow {
+  margin-left: 10px;
+  width: 20px;
+  height: 10px;
+  background-image: url("/src/assets/icons/navbar/arrow.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+.map_navbar .left.active .arrow {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.map_navbar .right {
+  height: 100%;
+  font-size: 17px;
+}
+.map_navbar .right .nav {
+  height: 100%;
+}
+.map_navbar .right .nav .ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+.map_navbar .right .nav .ul .li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 14px;
+  cursor: pointer;
+  height: 100%;
+  position: relative;
+}
+.map_navbar .right .nav .ul .li.active {
+  color: #A30C33;
+}
+.map_navbar .right .nav .ul .li.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid #A30C33;
+}
+
+.map_modal {
+  visibility: hidden;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.06);
+}
+.map_modal .regions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 5%;
+}
+.map_modal .regions .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.map_modal .regions .column .region {
+  color: #444444;
+  font-weight: 600;
+}
+.map_modal .regions .column .contry {
+  padding: 4px 0px;
+  cursor: pointer;
+}
+
+.map_modal.open {
+  opacity: 1;
+  top: 100px;
+  visibility: visible;
+}
+
+.map_block {
+  position: relative;
+}
+.map_block .map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-image: url("/src/assets/icons/map/Vector.svg");
+}

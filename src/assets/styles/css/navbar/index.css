@@ -1,0 +1,41 @@
+.logo {
+  background-image: url("/src/assets/icons/navbar/logo.png");
+  width: 125px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  height: 85px;
+  border: 1px solid #D9D9D9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 4%;
+}
+
+.nav .ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.li {
+  font-size: 18px;
+  color: #444444;
+  font-weight: 600;
+  margin: 0px 10px;
+}

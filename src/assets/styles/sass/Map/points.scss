@@ -1,0 +1,206 @@
+.points {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  .point {
+    position: absolute;
+    font-weight: 600;
+    font-size: 11px;
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 55%;
+      background: #444444;
+    }
+  }
+  .point.show {
+    opacity: 1;
+  }
+  .moscow {
+    left: 124px;
+    top: 214px;
+  }
+  .vladivostok {
+    flex-direction: column-reverse;
+    left: 935.13px;
+    top: 567.92px;
+  }
+  .habarovsk {
+    left: 956px;
+    top: 481.66px;
+  }
+  .irkutsk {
+    flex-direction: column-reverse;
+    left: 667px;
+    top: 480.66px;
+  }
+  .krasnoyarsk {
+    flex-direction: column-reverse;
+    left: 598px;
+    top: 458.66px;
+  }
+  .tomsk {
+    left: 570px;
+    top: 438.66px;
+  }
+  .nowosib {
+    flex-direction: column-reverse;
+    left: 475px;
+    top: 458.66px;
+  }
+  .omsk {
+    flex-direction: column-reverse;
+    left: 447px;
+    top: 472.66px;
+  }
+  .tumen {
+    flex-direction: column-reverse;
+    left: 392px;
+    top: 365.66px;
+  }
+  .surgut {
+    flex-direction: column-reverse;
+    left: 419px;
+    top: 321.66px;
+  }
+  .perm {
+    flex-direction: column-reverse;
+    left: 368px;
+    top: 301.66px;
+  }
+  .izewsk {
+    flex-direction: column-reverse;
+    left: 317px;
+    top: 283.66px;
+  }
+  .chelabinsk {
+    flex-direction: column-reverse;
+    left: 294px;
+    top: 362.66px;
+  }
+  .ekb {
+    flex-direction: column-reverse;
+    left: 284px;
+    top: 324.66px;
+  }
+  .ufa {
+    flex-direction: column-reverse;
+    left: 254px;
+    top: 340.66px;
+  }
+  .orenburg {
+    flex-direction: column-reverse;
+    left: 198px;
+    top: 366.66px;
+  }
+  .kazan {
+    flex-direction: column-reverse;
+    left: 234px;
+    top: 298.66px;
+  }
+  .samara {
+    flex-direction: column-reverse;
+    left: 168px;
+    top: 309.66px;
+  }
+  .downNovgorod {
+    flex-direction: column-reverse;
+    left: 127px;
+    top: 258.66px;
+  }
+  .yaroslav {
+    flex-direction: column-reverse;
+    left: 153px;
+    top: 194.66px;
+  }
+  .sanktPeter {
+    flex-direction: column-reverse;
+    left: 108px;
+    top: 128.66px;
+    font-size: 14px;
+  }
+  .kaliningrad {
+    flex-direction: column-reverse;
+    left: 6px;
+    top: 122.66px;
+  }
+  .volonez {
+    flex-direction: column-reverse;
+    left: 69px;
+    top: 245.66px;
+  }
+  .belgorod {
+    flex-direction: column-reverse;
+    left: 66px;
+    top: 280px;
+  }
+  .rostovNaDony {
+    flex-direction: column-reverse;
+    left: 40px;
+    top: 323px;
+  }
+  .volgograd {
+    flex-direction: column-reverse;
+    left: 80px;
+    top: 373px;
+  }
+  .krasnodar {
+    flex-direction: column-reverse;
+    left: 26px;
+    top: 383px;
+  }
+}
+// export const regionCenter = [
+//   {name: "center", title: 'Центр' },
+//   {name: "volonez", title: 'Воронеж' },
+//   {name: "yaroslav", title: 'Ярославль' },
+//   {name: "belgorod", title: 'Белгород' },
+// ]
+// export const regionWest = [
+//   {name: "northWest", title: 'Северо-Запад' },
+//   {name: "sanktPeter", title: 'Санкт-Петербург' },
+//   {name: "kaliningrad", title: 'Калининград' },
+// ]
+// export const regionSouth = [
+//   {name: "south", title: 'Юг' },
+//   {name: "rostovNaDony", title: 'Ростов-на-Дону' },
+//   {name: "krasnodar", title: 'Краснодар' },
+//   {name: "volgograd", title: 'Волгоград' },
+// ]
+// export const regionVolga = [
+//   {name: "volga", title: 'Волга' },
+//   {name: "kazan", title: 'Казань' },
+//   {name: "samara", title: 'Самара' },
+//   {name: "ufa", title: 'Уфа' },
+//   {name: "orenburg", title: 'Оренбург' },
+//   {name: "downNovgorod", title: 'Нижний Новгород' },
+// ]
+// export const regionUral = [
+//   {name: "ural", title: 'Урал' },
+//   {name: "ekb", title: 'Екатеринбург' },
+//   {name: "chelabinsk", title: 'Челябинск' },
+//   {name: "perm", title: 'Пермь' },
+//   {name: "surgut", title: 'Сургут' },
+//   {name: "tumen", title: 'Тюмень' },
+//   {name: "izewsk", title: 'Ижевск' },
+// ]
+// export const regionSiberia = [
+//   {name: "sibir", title: 'Сибирь' },
+//   {name: "nowosib", title: 'Новосибирск' },
+//   {name: "omsk", title: 'Омск' },
+//   {name: "tomsk", title: 'Томск' },
+//   {name: "krasnoyarsk", title: 'Красноярск' },
+//   {name: "irkutsk", title: 'Иркутск' },
+// ]
+// export const regionEast = [
+//   {name: "farEast", title: 'Дальний восток' },
+//   {name: "habarovsk", title: 'Хабаровск' },
+//   {name: "vladivostok", title: 'Владивосток' },
+// ]

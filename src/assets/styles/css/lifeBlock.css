@@ -1,0 +1,51 @@
+.life_block {
+  width: 100%;
+  max-width: 1110px;
+  margin: 70px auto;
+}
+.life_block .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.life_block .header .title {
+  font-weight: 600;
+  font-size: 56px;
+}
+.life_block .header .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.life_block .header .btns .btn {
+  width: 56px;
+  height: 56px;
+  background: #F0F0F0;
+  border-radius: 55%;
+}
+.life_block .slide {
+  width: 100%;
+}
+.life_block .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.life_block .footer .block {
+  width: 214px;
+  height: 6px;
+  background: #000000;
+  opacity: 0.1;
+}
