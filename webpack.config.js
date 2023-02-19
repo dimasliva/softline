@@ -17,7 +17,6 @@ module.exports = {
 
   ,
   },
-
   entry: {
     js: './src/js/index.js',
     css: './src/assets/styles/css/index.css'
