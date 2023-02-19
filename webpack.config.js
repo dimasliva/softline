@@ -1,11 +1,26 @@
 const path = require('path');
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   /*...*/
+  module: {
+    rules: [ {
+
+      use: {
+        loader: 'url-loader', // this need file-loader
+        options: {
+        limit: 50000
+        }
+      }
+    }
+  ]
+
+  ,
+  },
+
   entry: {
-    js: './src/assets/index.js',
-    css: './src/assets/css/index.scss'
+    js: './src/js/index.js',
+    css: './src/assets/styles/css/index.css'
   },
   output: {
     path: path.resolve(__dirname, "build"),
