@@ -33,7 +33,7 @@
   width: 348px;
   background-position: right;
   background-repeat: no-repeat;
-  background-image: url("./images/mission/Right.svg");
+  background-image: url("../../../../images/mission/Right.svg");
   background-size: contain;
 }
 
@@ -46,6 +46,6 @@
   width: 348px;
   background-position: left;
   background-repeat: no-repeat;
-  background-image: url("./images/mission/Left.svg");
+  background-image: url("../../../../images/mission/Left.svg");
   background-size: contain;
 }

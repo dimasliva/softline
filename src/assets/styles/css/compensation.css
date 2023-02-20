@@ -66,7 +66,7 @@
 }
 
 .compensation_block .packages .package .mortgage::before {
-  background-image: url("../../../..//compensation/mortgage.svg");
+  background-image: url("../../../../images/compensation/mortgage.svg");
 }
 
 .compensation_block .packages .package .orgtex::before {

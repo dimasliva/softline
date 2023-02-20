@@ -37,7 +37,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-image: url("./images/headBlock/bg.jpg");
+  background-image: url("../../../../images/headBlock/bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -494,7 +494,7 @@
   width: 348px;
   background-position: right;
   background-repeat: no-repeat;
-  background-image: url("./images/mission/Right.svg");
+  background-image: url("../../../../images/mission/Right.svg");
   background-size: contain;
 }
 
@@ -507,7 +507,7 @@
   width: 348px;
   background-position: left;
   background-repeat: no-repeat;
-  background-image: url("./images/mission/Left.svg");
+  background-image: url("../../../../images/mission/Left.svg");
   background-size: contain;
 }
 
@@ -678,7 +678,7 @@
 }
 
 .compensation_block .packages .package .mortgage::before {
-  background-image: url("../../../..//compensation/mortgage.svg");
+  background-image: url("../../../../images/compensation/mortgage.svg");
 }
 
 .compensation_block .packages .package .orgtex::before {
@@ -769,7 +769,7 @@
 }
 
 .life_block .header .btns .left::before {
-  background-image: url("./images/life/arrow.svg");
+  background-image: url("../../../../images/life/arrow.svg");
 }
 
 .life_block .header .btns .right {
@@ -778,7 +778,7 @@
 }
 
 .life_block .header .btns .right::before {
-  background-image: url("./images/life/arrow.svg");
+  background-image: url("../../../../images/life/arrow.svg");
 }
 
 .life_block .slide {
@@ -788,23 +788,23 @@
 }
 
 .life_block .slide.num0 {
-  background-image: url("./images/life/one.jpg");
+  background-image: url("../../../../images/life/one.jpg");
 }
 
 .life_block .slide.num4 {
-  background-image: url("./images/life/five.jpg");
+  background-image: url("../../../../images/life/five.jpg");
 }
 
 .life_block .slide.num1 {
-  background-image: url("./images/life/two.jpg");
+  background-image: url("../../../../images/life/two.jpg");
 }
 
 .life_block .slide.num2 {
-  background-image: url("./images/life/three.jpg");
+  background-image: url("../../../../images/life/three.jpg");
 }
 
 .life_block .slide.num3 {
-  background-image: url("./images/life/four.jpg");
+  background-image: url("../../../../images/life/four.jpg");
 }
 
 .life_block .footer {
