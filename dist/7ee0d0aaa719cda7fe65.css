@@ -158,7 +158,7 @@
   margin-left: 10px;
   width: 20px;
   height: 10px;
-  background-image: url("../../../../images/navbar/arrow.svg");
+  background-image: url("./images/navbar/arrow.svg");
   display: flex;
   background-size: cover;
   background-position: center;
@@ -255,7 +255,7 @@
 .map_block .map {
   display: flex;
   position: relative;
-  background-image: url("../../../../../images/map/map.svg");
+  background-image: url("./images/map/map.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 1190px;
@@ -583,23 +583,23 @@
 }
 
 .direction_block .blocks .solve {
-  background-image: url("../../../../images/direction/solve.jpg");
+  background-image: url("./images/direction/solve.jpg");
 }
 
 .direction_block .blocks .cyber {
-  background-image: url("../../../../images/direction/cyber.jpg");
+  background-image: url("./images/direction/cyber.jpg");
 }
 
 .direction_block .blocks .import {
-  background-image: url("../../../../images/direction/import.jpg");
+  background-image: url("./images/direction/import.jpg");
 }
 
 .direction_block .blocks .sky {
-  background-image: url("../../../../images/direction/sky.jpg");
+  background-image: url("./images/direction/sky.jpg");
 }
 
 .direction_block .blocks .digital {
-  background-image: url("../../../../images/direction/digital.jpg");
+  background-image: url("./images/direction/digital.jpg");
 }
 
 .direction_block .blocks .digital .title_container .title {
@@ -607,7 +607,7 @@
 }
 
 .direction_block .blocks .support {
-  background-image: url("../../../../images/direction/support.jpg");
+  background-image: url("./images/direction/support.jpg");
 }
 
 .compensation_block {
