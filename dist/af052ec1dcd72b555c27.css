@@ -810,7 +810,6 @@
 .life_block .footer {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 70px;
 }
 
 .life_block .footer .block {
