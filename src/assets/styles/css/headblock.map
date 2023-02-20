@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "headblock.css",
+	"sources": [
+		"../sass/headblock.scss"
+	],
+	"sourcesContent": [
+		".head_block {\n  width: 100%;\n  max-width: 1250px;\n  height: 600px;\n  margin: 0 auto;\n  display: flex;\n  flex-direction: column;\n  background-image: url(\"/src/assets/icons/headBlock/bg.jpg\");\n  background-position: center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  padding: 0px 5%;\n  justify-content: center;\n\n  .title {\n    font-weight: 600;\n    font-size: 46px;\n    color: #444444;\n  }\n  .btn {\n    display: flex;\n    flex-direction: row;\n    align-items: flex-start;\n    padding: 18px 28px;\n    gap: 10px;\n    \n    width: 110px;\n    height: 56px;\n    \n    background: #B01736;\n    border-radius: 8px;\n    \n    /* Inside auto layout */\n    flex: none;\n    order: 0;\n    flex-grow: 0;\n    font-weight: 600;\n    font-size: 13px;\n    \n    color: #FFFFFF;\n  \n    margin-top: 60px;\n  \n    cursor: pointer;\n    transition: .3s all ease-in-out;\n  }\n  .btn:hover {\n    background: #D53152;\n  \n  }\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,gBAAgB,EAAE,yCAAyC;EAC3D,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,OAAO,EAAE,MAAM;EACf,eAAe,EAAE,MAAM;CAsCxB;;;AAlDD,AAcE,WAdS,CAcT,MAAM,CAAC;EACL,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CACf;;;AAlBH,AAmBE,WAnBS,CAmBT,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,UAAU;EACvB,OAAO,EAAE,SAAS;EAClB,GAAG,EAAE,IAAI;EAET,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EAEZ,UAAU,EAAE,OAAO;EACnB,aAAa,EAAE,GAAG;EAElB,wBAAwB;EACxB,IAAI,EAAE,IAAI;EACV,KAAK,EAAE,CAAC;EACR,SAAS,EAAE,CAAC;EACZ,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EAEf,KAAK,EAAE,OAAO;EAEd,UAAU,EAAE,IAAI;EAEhB,MAAM,EAAE,OAAO;EACf,UAAU,EAAE,mBAAmB;CAChC;;;AA7CH,AA8CE,WA9CS,CA8CT,IAAI,AAAA,MAAM,CAAC;EACT,UAAU,EAAE,OAAO;CAEpB"
+}

@@ -1,0 +1,28 @@
+.study_container {
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.study_container .blocks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.study_container .blocks .block {
+  margin: 2% 5%;
+}
+
+.study_container .blocks .block div {
+  font-weight: 600;
+  font-size: 60px;
+  color: #A30C33;
+  opacity: 0.95;
+}
+
+.study_container .blocks .block span {
+  font-size: 16px;
+  color: #444444;
+}

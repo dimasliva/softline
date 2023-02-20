@@ -1,0 +1,40 @@
+.map_modal {
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  background: #FFFFFF;
+  z-index: 2;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.06);
+}
+
+.map_modal .regions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 5%;
+}
+
+.map_modal .regions .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.map_modal .regions .column .region {
+  color: #444444;
+  font-weight: 600;
+}
+
+.map_modal .regions .column .contry {
+  padding: 4px 0px;
+  cursor: pointer;
+}
+
+.map_modal.open {
+  opacity: 1;
+  top: 100px;
+  visibility: visible;
+}

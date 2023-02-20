@@ -1,3 +1,131 @@
+.map_navbar {
+  width: 100%;
+  height: 80px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.map_navbar .left {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.map_navbar .left .arrow {
+  margin-left: 10px;
+  width: 20px;
+  height: 10px;
+  background-image: url("/src/assets/icons/navbar/arrow.svg");
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+
+.map_navbar .left.active .arrow {
+  transform: rotate(180deg);
+}
+
+.map_navbar .right {
+  height: 100%;
+  font-size: 17px;
+}
+
+.map_navbar .right .nav {
+  height: 100%;
+}
+
+.map_navbar .right .nav .ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.map_navbar .right .nav .ul .li {
+  display: flex;
+  align-items: center;
+  margin: 0 14px;
+  cursor: pointer;
+  height: 100%;
+  position: relative;
+}
+
+.map_navbar .right .nav .ul .li.active {
+  color: #A30C33;
+}
+
+.map_navbar .right .nav .ul .li.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid #A30C33;
+}
+
+.map_modal {
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  background: #FFFFFF;
+  z-index: 2;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.06);
+}
+
+.map_modal .regions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 5%;
+}
+
+.map_modal .regions .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.map_modal .regions .column .region {
+  color: #444444;
+  font-weight: 600;
+}
+
+.map_modal .regions .column .contry {
+  padding: 4px 0px;
+  cursor: pointer;
+}
+
+.map_modal.open {
+  opacity: 1;
+  top: 100px;
+  visibility: visible;
+}
+
+.map_block {
+  position: relative;
+  margin: 100px 0;
+}
+
+.map_block .map {
+  display: flex;
+  position: relative;
+  background-image: url("/src/assets/icons/map/map.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1190px;
+  height: 599.58px;
+}
+
 .points {
   position: relative;
   width: 100%;
@@ -186,4 +314,11 @@
   flex-direction: column-reverse;
   left: 26px;
   top: 383px;
+}
+
+.map_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 70px;
 }

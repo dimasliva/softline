@@ -1,0 +1,30 @@
+.header_navbar {
+  height: 85px;
+  border: 1px solid #D9D9D9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 4%;
+}
+
+.header_navbar .logo {
+  background-image: url("../../../../images/navbar/logo.png");
+  width: 125px;
+  height: 25px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+
+.header_navbar .navbar .ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_navbar .navbar .ul .li {
+  font-size: 16px;
+  color: #444444;
+  font-weight: 600;
+  margin: 0px 10px;
+  cursor: pointer;
+}

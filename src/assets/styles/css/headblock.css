@@ -1,0 +1,46 @@
+.head_block {
+  width: 100%;
+  max-width: 1250px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/src/assets/icons/headBlock/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px 5%;
+  justify-content: center;
+}
+
+.head_block .title {
+  font-weight: 600;
+  font-size: 46px;
+  color: #444444;
+}
+
+.head_block .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 18px 28px;
+  gap: 10px;
+  width: 110px;
+  height: 56px;
+  background: #B01736;
+  border-radius: 8px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: 600;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-top: 60px;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+
+.head_block .btn:hover {
+  background: #D53152;
+}

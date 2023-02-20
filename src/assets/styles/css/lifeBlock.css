@@ -3,49 +3,99 @@
   max-width: 1110px;
   margin: 70px auto;
 }
+
 .life_block .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .life_block .header .title {
+  color: #444444;
   font-weight: 600;
-  font-size: 56px;
+  font-size: 50px;
+  cursor: default;
 }
+
 .life_block .header .btns {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
+
 .life_block .header .btns .btn {
   width: 56px;
   height: 56px;
+  position: relative;
   background: #F0F0F0;
   border-radius: 55%;
+  cursor: pointer;
 }
+
+.life_block .header .btns .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.life_block .header .btns .left::before {
+  background-image: url("/src/assets/icons/life/arrow.svg");
+}
+
+.life_block .header .btns .right {
+  margin-left: 20px;
+  transform: rotate(180deg);
+}
+
+.life_block .header .btns .right::before {
+  background-image: url("/src/assets/icons/life/arrow.svg");
+}
+
 .life_block .slide {
   width: 100%;
+  height: 834px;
+  margin: 50px 0;
 }
+
+.life_block .slide.num0 {
+  background-image: url("/src/assets/icons/life/one.jpg");
+}
+
+.life_block .slide.num4 {
+  background-image: url("/src/assets/icons/life/five.jpg");
+}
+
+.life_block .slide.num1 {
+  background-image: url("/src/assets/icons/life/two.jpg");
+}
+
+.life_block .slide.num2 {
+  background-image: url("/src/assets/icons/life/three.jpg");
+}
+
+.life_block .slide.num3 {
+  background-image: url("/src/assets/icons/life/four.jpg");
+}
+
 .life_block .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
+
 .life_block .footer .block {
   width: 214px;
   height: 6px;
+  cursor: pointer;
   background: #000000;
   opacity: 0.1;
+}
+
+.life_block .footer .block.active {
+  opacity: 1;
+  background: #A30C33;
 }

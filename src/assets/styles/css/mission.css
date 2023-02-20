@@ -1,21 +1,51 @@
-.head_block {
+.mission_block {
   width: 100%;
+  position: relative;
   max-width: 1250px;
-  height: 600px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  height: 471px;
+  background: #a30c33;
+  color: white;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-image: url("/src/assets/icons/headBlock/bg.jpg");
-  background-position: center;
-  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission_block .title {
+  color: white;
+  font-weight: 600;
+  font-size: 56px;
+  margin-bottom: 50px;
+}
+
+.mission_block .desc {
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+}
+
+.mission_block::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 55px;
+  bottom: 55px;
+  width: 348px;
+  background-position: right;
   background-repeat: no-repeat;
-  padding: 0px 5%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  background-image: url("/src/assets/icons/mission/Right.svg");
+  background-size: contain;
+}
+
+.mission_block::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 55px;
+  bottom: 55px;
+  width: 348px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url("/src/assets/icons/mission/Left.svg");
+  background-size: contain;
 }

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mapBlock.css",
+	"sources": [
+		"../../sass/Map/mapBlock.scss"
+	],
+	"sourcesContent": [
+		"\n.map_block {\n  position: relative;\n  margin: 100px 0;\n  .map {\n    display: flex;\n    position: relative;\n    background-image: url(\"/src/assets/icons/map/map.svg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n\n    width: 1190px;\n    height: 599.58px;\n  }\n}"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,UAAU,CAAC;EACT,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,OAAO;CAWhB;;;AAbD,AAGE,UAHQ,CAGR,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,QAAQ;EAClB,gBAAgB,EAAE,oCAAoC;EACtD,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAE5B,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,QAAQ;CACjB"
+}

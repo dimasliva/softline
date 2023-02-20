@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "aboutblock.css",
+	"sources": [
+		"../sass/aboutblock.scss"
+	],
+	"sourcesContent": [
+		".about_container {\n  max-width: 1110px;\n  width: 100%;\n  height: 350px;\n  background-color: #FFFFFF;\n  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.08);\n  margin: 0 auto;\n  margin-top: 100px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  .about {\n    padding: 8%;\n    p {\n      font-size: 25px;\n      font-weight: 600;\n      line-height: 38.4px;\n      text-align: center;\n      .company{\n        color: rgba(176, 23, 54, 1);\n      }\n    }\n  }\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,gBAAgB,CAAC;EACf,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,mBAAmB;EAC5C,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAapB;;;AAvBD,AAWE,gBAXc,CAWd,MAAM,CAAC;EACL,OAAO,EAAE,EAAE;CAUZ;;;AAtBH,AAaI,gBAbY,CAWd,MAAM,CAEJ,CAAC,CAAC;EACA,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;CAInB;;;AArBL,AAkBM,gBAlBU,CAWd,MAAM,CAEJ,CAAC,CAKC,QAAQ,CAAA;EACN,KAAK,EAAE,OAAoB;CAC5B"
+}

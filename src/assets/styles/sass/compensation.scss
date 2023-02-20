@@ -37,7 +37,8 @@
         background-repeat: no-repeat;
       }
       .dms::before {
-        background-image: url("/src/assets/icons/compensation/heal.svg");
+        // background-image: url("/src/assets/icons/compensation/heal.svg");
+        background-image: url("../../../../images/compensation/heal.svg");
       }
       .dayoff::before {
         background-image: url("/src/assets/icons/compensation/dayoff.svg");

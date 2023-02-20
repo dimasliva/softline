@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "navbar.css",
+	"sources": [
+		"../sass/navbar.scss"
+	],
+	"sourcesContent": [
+		"\n.header_navbar {\n  height: 85px;\n  border: 1px solid #D9D9D9;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0px 4%;\n\n  .logo {\n    background-image: url('/src/assets/icons/navbar/logo.png');\n    width: 125px;\n    height: 25px;\n    display: flex;\n    background-size: cover;\n    background-position: center;\n  }\n\n  .navbar .ul {\n    display: flex;\n    justify-content: space-between;\n    .li {\n      font-size: 16px;\n      color: #444444;\n      font-weight: 600;\n      margin: 0px 10px;\n      cursor: pointer;\n    }\n  }\n  \n}\n"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,cAAc,CAAC;EACb,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,MAAM;CAuBhB;;;AA7BD,AAQE,cARY,CAQZ,KAAK,CAAC;EACJ,gBAAgB,EAAE,wCAAwC;EAC1D,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC5B;;;AAfH,AAiBE,cAjBY,CAiBZ,OAAO,CAAC,GAAG,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAQ/B;;;AA3BH,AAoBI,cApBU,CAiBZ,OAAO,CAAC,GAAG,CAGT,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,GAAG;EAChB,MAAM,EAAE,QAAQ;EAChB,MAAM,EAAE,OAAO;CAChB"
+}
