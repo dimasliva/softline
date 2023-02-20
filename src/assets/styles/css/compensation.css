@@ -49,7 +49,7 @@
 }
 
 .compensation_block .packages .package .dayoff::before {
-  background-image: url("/src/assets/icons/compensation/dayoff.svg");
+  background-image: url("/images/compensation/dayoff.svg");
 }
 
 .compensation_block .packages .package .mobile::before {
