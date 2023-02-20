@@ -45,7 +45,7 @@
 }
 
 .compensation_block .packages .package .dms::before {
-  background-image: url("../../../../images/compensation/dms.svg");
+  background-image: url("../../../../images/compensation/heal.svg");
 }
 
 .compensation_block .packages .package .dayoff::before {
