@@ -8,7 +8,7 @@
 }
 
 .header_navbar .logo {
-  background-image: url("/images/navbar/logo.png");
+  background-image: url("../../../../images/navbar/logo.png");
   width: 125px;
   height: 25px;
   display: flex;
