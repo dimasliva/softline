@@ -520,7 +520,6 @@
 }
 
 .direction_block .title {
-  font-size: 30px;
   margin-bottom: 40px;
 }
 
@@ -621,13 +620,6 @@
   flex-direction: column;
   align-items: center;
   padding: 70px 40px;
-}
-
-.compensation_block .title {
-  font-weight: 600;
-  font-size: 30px;
-  color: #444444;
-  text-align: center;
 }
 
 .compensation_block .packages {

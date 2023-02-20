@@ -10,6 +10,13 @@
   padding: 70px 40px;
 }
 
+.compensation_block .title {
+  font-weight: 600;
+  font-size: 30px;
+  color: #444444;
+  text-align: center;
+}
+
 .compensation_block .packages {
   display: flex;
   align-items: flex-start;
