@@ -35,14 +35,14 @@
         background-size: 20%;
       }
       .left::before {
-        background-image: url("/src/assets/icons/life/arrow.svg");
+        background-image: url("./images/life/arrow.svg");
       }
       .right {
         margin-left: 20px;
         transform: rotate(180deg);
       }
       .right::before {
-        background-image: url("/src/assets/icons/life/arrow.svg");
+        background-image: url("./images/life/arrow.svg");
       }
     }
   }
@@ -52,19 +52,19 @@
     margin: 50px 0;
   }
   .slide.num0{
-    background-image: url("/src/assets/icons/life/one.jpg");
+    background-image: url("./images/life/one.jpg");
   }
   .slide.num4{
-    background-image: url("/src/assets/icons/life/five.jpg");
+    background-image: url("./images/life/five.jpg");
   }
   .slide.num1{
-    background-image: url("/src/assets/icons/life/two.jpg");
+    background-image: url("./images/life/two.jpg");
   }
   .slide.num2{
-    background-image: url("/src/assets/icons/life/three.jpg");
+    background-image: url("./images/life/three.jpg");
   }
   .slide.num3{
-    background-image: url("/src/assets/icons/life/four.jpg");
+    background-image: url("./images/life/four.jpg");
   }
   .footer {
     display: flex;

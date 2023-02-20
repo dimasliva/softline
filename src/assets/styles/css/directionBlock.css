@@ -70,23 +70,23 @@
 }
 
 .direction_block .blocks .solve {
-  background-image: url("/src/assets/icons/direction/solve.jpg");
+  background-image: url("./images/direction/solve.jpg");
 }
 
 .direction_block .blocks .cyber {
-  background-image: url("/src/assets/icons/direction/cyber.jpg");
+  background-image: url("./images/direction/cyber.jpg");
 }
 
 .direction_block .blocks .import {
-  background-image: url("/src/assets/icons/direction/import.jpg");
+  background-image: url("./images/direction/import.jpg");
 }
 
 .direction_block .blocks .sky {
-  background-image: url("/src/assets/icons/direction/sky.jpg");
+  background-image: url("./images/direction/sky.jpg");
 }
 
 .direction_block .blocks .digital {
-  background-image: url("/src/assets/icons/direction/digital.jpg");
+  background-image: url("./images/direction/digital.jpg");
 }
 
 .direction_block .blocks .digital .title_container .title {
@@ -94,5 +94,5 @@
 }
 
 .direction_block .blocks .support {
-  background-image: url("/src/assets/icons/direction/support.jpg");
+  background-image: url("./images/direction/support.jpg");
 }

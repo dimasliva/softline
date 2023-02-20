@@ -6,7 +6,7 @@
 .map_block .map {
   display: flex;
   position: relative;
-  background-image: url("/src/assets/icons/map/map.svg");
+  background-image: url("./images/map/map.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 1190px;

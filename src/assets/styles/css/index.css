@@ -37,7 +37,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-image: url("/src/assets/icons/headBlock/bg.jpg");
+  background-image: url("./images/headBlock/bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -158,7 +158,7 @@
   margin-left: 10px;
   width: 20px;
   height: 10px;
-  background-image: url("/src/assets/icons/navbar/arrow.svg");
+  background-image: url("./images/navbar/arrow.svg");
   display: flex;
   background-size: cover;
   background-position: center;
@@ -255,7 +255,7 @@
 .map_block .map {
   display: flex;
   position: relative;
-  background-image: url("/src/assets/icons/map/map.svg");
+  background-image: url("./images/map/map.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 1190px;
@@ -494,7 +494,7 @@
   width: 348px;
   background-position: right;
   background-repeat: no-repeat;
-  background-image: url("/src/assets/icons/mission/Right.svg");
+  background-image: url("./images/mission/Right.svg");
   background-size: contain;
 }
 
@@ -507,7 +507,7 @@
   width: 348px;
   background-position: left;
   background-repeat: no-repeat;
-  background-image: url("/src/assets/icons/mission/Left.svg");
+  background-image: url("./images/mission/Left.svg");
   background-size: contain;
 }
 
@@ -583,23 +583,23 @@
 }
 
 .direction_block .blocks .solve {
-  background-image: url("/src/assets/icons/direction/solve.jpg");
+  background-image: url("./images/direction/solve.jpg");
 }
 
 .direction_block .blocks .cyber {
-  background-image: url("/src/assets/icons/direction/cyber.jpg");
+  background-image: url("./images/direction/cyber.jpg");
 }
 
 .direction_block .blocks .import {
-  background-image: url("/src/assets/icons/direction/import.jpg");
+  background-image: url("./images/direction/import.jpg");
 }
 
 .direction_block .blocks .sky {
-  background-image: url("/src/assets/icons/direction/sky.jpg");
+  background-image: url("./images/direction/sky.jpg");
 }
 
 .direction_block .blocks .digital {
-  background-image: url("/src/assets/icons/direction/digital.jpg");
+  background-image: url("./images/direction/digital.jpg");
 }
 
 .direction_block .blocks .digital .title_container .title {
@@ -607,7 +607,7 @@
 }
 
 .direction_block .blocks .support {
-  background-image: url("/src/assets/icons/direction/support.jpg");
+  background-image: url("./images/direction/support.jpg");
 }
 
 .compensation_block {
@@ -657,32 +657,32 @@
 }
 
 .compensation_block .packages .package .dms::before {
-  background-image: url("../../../../images/compensation/heal.svg");
+  background-image: url("./images/compensation/heal.svg");
 }
 
 .compensation_block .packages .package .dayoff::before {
-  background-image: url("/images/compensation/dayoff.svg");
+  background-image: url("./images/compensation/dayoff.svg");
 }
 
 .compensation_block .packages .package .mobile::before {
-  background-image: url("/src/assets/icons/compensation/mobile.svg");
+  background-image: url("./images/compensation/mobile.svg");
 }
 
 .compensation_block .packages .package .sales::before {
-  background-image: url("/src/assets/icons/compensation/sales.svg");
+  background-image: url("./images/compensation/sales.svg");
 }
 
 .compensation_block .packages .package .lti::before {
   background-size: 60%;
-  background-image: url("/src/assets/icons/compensation/lti.svg");
+  background-image: url("./images/compensation/lti.svg");
 }
 
 .compensation_block .packages .package .mortgage::before {
-  background-image: url("/src/assets/icons/compensation/mortgage.svg");
+  background-image: url("./images/compensation/mortgage.svg");
 }
 
 .compensation_block .packages .package .orgtex::before {
-  background-image: url("/src/assets/icons/compensation/orgtex.svg");
+  background-image: url("./images/compensation/orgtex.svg");
 }
 
 .compensation_block .packages .package .titles {
@@ -769,7 +769,7 @@
 }
 
 .life_block .header .btns .left::before {
-  background-image: url("/src/assets/icons/life/arrow.svg");
+  background-image: url("./images/life/arrow.svg");
 }
 
 .life_block .header .btns .right {
@@ -778,7 +778,7 @@
 }
 
 .life_block .header .btns .right::before {
-  background-image: url("/src/assets/icons/life/arrow.svg");
+  background-image: url("./images/life/arrow.svg");
 }
 
 .life_block .slide {
@@ -788,23 +788,23 @@
 }
 
 .life_block .slide.num0 {
-  background-image: url("/src/assets/icons/life/one.jpg");
+  background-image: url("./images/life/one.jpg");
 }
 
 .life_block .slide.num4 {
-  background-image: url("/src/assets/icons/life/five.jpg");
+  background-image: url("./images/life/five.jpg");
 }
 
 .life_block .slide.num1 {
-  background-image: url("/src/assets/icons/life/two.jpg");
+  background-image: url("./images/life/two.jpg");
 }
 
 .life_block .slide.num2 {
-  background-image: url("/src/assets/icons/life/three.jpg");
+  background-image: url("./images/life/three.jpg");
 }
 
 .life_block .slide.num3 {
-  background-image: url("/src/assets/icons/life/four.jpg");
+  background-image: url("./images/life/four.jpg");
 }
 
 .life_block .footer {

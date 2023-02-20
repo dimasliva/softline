@@ -22,7 +22,7 @@
   margin-left: 10px;
   width: 20px;
   height: 10px;
-  background-image: url("/src/assets/icons/navbar/arrow.svg");
+  background-image: url("./images/navbar/arrow.svg");
   display: flex;
   background-size: cover;
   background-position: center;
